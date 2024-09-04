@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    font-family: Arial, Segoe UI, sans-serif;;
+}
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #10069f;
+    /* height: 100px; */
+    height: 4rem;
+}
+
+.header-wrapper .logo-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -120px;
+}
+
+.logo-section img {
+    width: 100px;
+    height: 40px;
+}
+
+.logo-section .logo-name {
+    width: fit-content;
+    margin-left: 20px;
+}
+
+.logo-name h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 20.8px;
+}
+
+.header-wrapper .account-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: -150px;
+}
+
+.account-section .account-name {
+    color: white;
+}
+
+.account-name h3 {
+    color: white;
+    font-size: 17.6px;
+    font-weight: 400;
+}
+
+.account-section .account-bar {
+    color: white;
+    margin: 0 5px;
+}
+
+.account-session {
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.account-session h3 {
+    color: white;
+    font-size: 17.6px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 767px) {
+    .header-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: blue;
+        height: 120px;
+    }
+    
+    .header-wrapper .logo-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .logo-section img {
+        width: 100px;
+        height: 40px;
+    }
+    
+    .logo-name h2 {
+        color: white;
+        font-weight: 400;
+        font-size: 20.8px;
+    }
+    
+    .header-wrapper .account-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .account-section .account-name {
+        color: white;
+    }
+    
+    .account-name h3 {
+        color: white;
+        font-size: 17.6px;
+        font-weight: 400;
+    }
+    
+    .account-section .account-bar {
+        color: white;
+        margin: 0 5px;
+    }
+    
+    .account-section .account-session {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .account-session h3 {
+        color: white;
+        font-size: 17.6px;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+    .header-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: blue;
+        height: 120px;
+    }
+    
+    .header-wrapper .logo-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .logo-section img {
+        width: 100px;
+        height: 40px;
+    }
+    
+    .logo-name h2 {
+        color: white;
+        font-weight: 400;
+        font-size: 20.8px;
+    }
+    
+    .header-wrapper .account-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .account-section .account-name {
+        color: white;
+    }
+    
+    .account-name h3 {
+        color: white;
+        font-size: 17.6px;
+        font-weight: 400;
+    }
+    
+    .account-section .account-bar {
+        color: white;
+        margin: 0 5px;
+    }
+    
+    .account-section .account-session {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .account-session h3 {
+        color: white;
+        font-size: 17.6px;
+        font-weight: 400;
+    }
+}

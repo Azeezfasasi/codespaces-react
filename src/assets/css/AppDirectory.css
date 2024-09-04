@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    font-family: Arial, Segoe UI, sans-serif;;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    margin: auto;
+}
+
+.app-container .tenant-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    width: 25%;
+    height: 400px;
+    padding-left: 20px;
+    border-right: 5px solid #00b7bd;
+}
+
+.app-container .apps-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    width: 25%;
+    height: 400px;
+    padding-left: 20px;
+    border-right: 5px solid #00b7bd;
+}
+
+.app-container .releases-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 25%;
+    height: 400px;
+    padding-left: 20px;
+    border-right: 5px solid #00b7bd;
+}
+
+.title h2 {
+    font-size: 22.5px;
+}
+
+.tenant-wrapper .tenant-lists {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+
+.tenant-lists h3 {
+    width: 90%;
+    padding: 20px 10px;
+    font-weight: 400;
+    margin-bottom: -20px;
+}
+
+.tenant-lists i {
+    float: right;
+}
+
+.tenant-lists h3:hover {
+    background-color: #10069f;
+    color: white;
+    cursor: pointer;
+}
+
+.apps-wrapper .app-lists {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.app-select {
+    padding: 3px 10px;
+    width: 98%;
+    position: relative;
+}
+
+.app-select:hover {
+    background-color: #10069f;
+    color: white;
+}
+
+.app-name {
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    width: 90%;
+}
+
+.app-name i {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+
+.app-desc {
+    font-size: 13px;
+    font-weight: normal;
+    color: inherit;
+    margin-top: 3px;
+    margin-bottom: 30px;
+    width: 90%;
+}
+
+.release-select {
+    padding: 3px 10px;
+    width: 98%;
+    position: relative;
+}
+
+.release-select i {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.release-select:hover{
+    background-color: #10069f;
+    color: white;
+}
+
+
+.release-link {
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+    width: 90%;
+    text-decoration: none;
+    color: black;
+}
+
+.release-link:hover {
+    background-color: #10069f;
+    color: white;
+}
+
+.release-desc {
+    font-size: 13px;
+    font-weight: normal;
+    color: inherit;
+    margin-top: 3px;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+@media only screen and (max-width: 767px) {
+    .app-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+        margin: auto;
+    }
+
+    .app-container .tenant-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        overflow: hidden;
+        width: 80%;
+        height: 290px;
+        padding-left: 20px;
+        border-right: 5px solid #00b7bd;
+    }
+    
+    .app-container .apps-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        overflow: hidden;
+        width: 80%;
+        height: 250px;
+        padding-left: 20px;
+        border-right: 5px solid #00b7bd;
+    }
+    
+    .app-container .releases-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        width: 80%;
+        height: 200px;
+        padding-left: 20px;
+        border-right: 5px solid #00b7bd;
+    }
+    
+}
